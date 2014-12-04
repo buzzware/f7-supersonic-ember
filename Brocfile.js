@@ -2,7 +2,21 @@
 
 var EmberApp = require('ember-cli/lib/broccoli/ember-app');
 
-var app = new EmberApp();
+var app = new EmberApp({
+	storeConfigInMeta: false,
+	inlineContent: {
+// see https://www.npmjs.org/package/ember-cli-inline-content
+//    'head' : 'filepath1.js',
+//    'body' : 'filepath2.css',
+//    'key3' : {
+//      file: 'filepath3.js',
+//      attrs: { 'data-foo' : 'bar' }
+//    },
+//    'key4' : {
+//      content: 'foo'
+//    }
+	}
+});
 
 // Use `app.import` to add additional libraries to the generated
 // output files.

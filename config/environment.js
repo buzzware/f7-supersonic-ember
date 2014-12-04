@@ -2,7 +2,7 @@
 
 module.exports = function(environment) {
   var ENV = {
-    modulePrefix: 'ember-cli-cordova-test',
+    modulePrefix: 'supersonic-ember',
     environment: environment,
     baseURL: '/',
     locationType: 'hash',

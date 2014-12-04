@@ -2,7 +2,7 @@
 
 module.exports =
   app:
-    name: "supersonic_test"
+    name: "supersonic-ember"
 
   # network:
   #   extraResponseHeaders:
