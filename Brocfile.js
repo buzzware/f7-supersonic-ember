@@ -1,5 +1,8 @@
 /* global require, module */
 
+var EmberAddon = require('ember-cli/lib/broccoli/ember-addon');
+//var app = new EmberAddon(); //from f7 example
+
 var EmberApp = require('ember-cli/lib/broccoli/ember-app');
 
 var app = new EmberApp({
