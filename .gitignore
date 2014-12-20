@@ -48,3 +48,5 @@ cordova/platforms/wp8/*.csproj.user
 bower_components
 
 node_modules
+
+.idea
