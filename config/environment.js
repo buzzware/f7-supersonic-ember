@@ -2,7 +2,7 @@
 
 module.exports = function(environment) {
   var ENV = {
-    modulePrefix: 'f7-supersonic-ember',
+    modulePrefix: 'supersonic-ember',
     environment: environment,
     baseURL: '/',
     locationType: 'hash',
@@ -37,7 +37,6 @@ module.exports = function(environment) {
     // Testem prefers this...
     ENV.baseURL = '/';
     ENV.locationType = 'auto';
-    //ENV.locationType = 'none';
 
     // keep test console output quieter
     ENV.APP.LOG_ACTIVE_GENERATION = false;
@@ -47,7 +46,7 @@ module.exports = function(environment) {
   }
 
   if (environment === 'production') {
-    //ENV.baseURL = '/ember-cli-framework7/';
+
   }
 
   return ENV;
