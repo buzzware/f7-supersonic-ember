@@ -10,7 +10,7 @@
     {{content-for 'head'}}
 
 <!-- BEGIN SUPERSONIC -->
-  <link rel="stylesheet" href="components/supersonic/css/supersonic.css">
+  <!--<link rel="stylesheet" href="components/supersonic/css/supersonic.css">-->
   <!--<link rel="stylesheet" href="stylesheets/application.css">-->
   <link rel="import" href="components/supersonic/components/import.html">
   <!--<script src="http://localhost/cordova.js"></script>-->
@@ -24,11 +24,16 @@
 	<link rel="stylesheet" href="assets/vendor.css">
   <link rel="stylesheet" href="assets/supersonic-ember.css">
 
+    {{content-for 'head-footer'}}
+
   </head>
   <body>
     {{content-for 'body'}}
 
     <script src="assets/vendor.js"></script>
     <script src="assets/supersonic-ember.js"></script>
+
+    {{content-for 'body-footer'}}
+
   </body>
 </html>
