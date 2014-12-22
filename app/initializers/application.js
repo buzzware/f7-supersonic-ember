@@ -1,6 +1,6 @@
 import Ember from 'ember';
 
-export function initialize(container, application) {
+export function initialize(container) { //, application) {
   Ember.run.schedule('afterRender', function() {
     container.lookup('service:framework7').initSwipePanels('left');
   });
